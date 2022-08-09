@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+header {
+  background: maroon;
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.project-title a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+}
+
+#welcome-section {
+  background-color: gray;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.intro {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin: 30vh auto 20px auto;
+}
+
+.title {
+  font-style: italic;
+  color: maroon;
+  text-align: center;
+  font-size: 30px;
+  font-weight: light;
+}
+
+#projects {
+  background: darkcyan;
+  padding: 40px 20px;
+}
+
+#project-head {
+  text-align: center;
+  margin: 20px auto;
+  width: fit-content;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 2px solid #fff;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(90px, 1fr));
+  grid-template-rows: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: 20px auto;
+}
+
+.project-tile {
+  width: 100%;
+}
+
+.project-img {
+  height: auto;
+  min-height: 200px;
+  width: 100%;
+  background: #fff;
+}
+
+.project-title {
+  padding: 20px 0;
+  background: grey;
+}
+
+.project-button button {
+  background: gray;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.project-button button:hover {
+  background: maroon;
+}
+
+.project-button {
+  width: fit-content;
+  margin: 30px auto;
+}
+
+#socialMedia {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.sm {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.sm:hover {
+  transition: 500ms linear;
+}
+
+@media only screen and (max-width: 13000px) {
+  h3 {
+    font-size: 2em;
+  }
+}
+
+#footer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
