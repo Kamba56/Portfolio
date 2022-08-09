@@ -8,6 +8,7 @@ body {
   font-family: sans-serif;
   letter-spacing: 1px;
 }
+
 header {
   background: maroon;
   width: 100%;
@@ -15,6 +16,7 @@ header {
   position: sticky;
   top: 0;
 }
+
 ul {
   list-style-type: none;
   display: flex;
@@ -22,6 +24,7 @@ ul {
   width: 90%;
   margin: 0 auto;
 }
+
 nav ul li a {
   display: inline-block;
   padding: 30px;
@@ -30,6 +33,16 @@ nav ul li a {
   font-size: 25px;
   font-weight: bold;
 }
+
+.project-title a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+
+
 nav ul li a:hover {
   background-color: gray;
 }
@@ -67,6 +80,7 @@ nav ul li a:hover {
   background: darkcyan;
   padding: 40px 20px;
 }
+
 #project-head {
   text-align: center;
   margin: 20px auto;
@@ -88,6 +102,7 @@ nav ul li a:hover {
 .project-tile {
   width: 100%;
 }
+
 .project-img {
   height: auto;
   min-height: 200px;
@@ -99,13 +114,6 @@ nav ul li a:hover {
   padding: 20px 0;
   background: grey;
 }
-.project-title a {
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  color: #fff;
-}
 
 .project-button button {
   background: gray;
@@ -116,6 +124,7 @@ nav ul li a:hover {
   font-size: 20px;
   border-radius: 5px;
 }
+
 .project-button button:hover {
   background: maroon;
 }
@@ -124,6 +133,7 @@ nav ul li a:hover {
   width: fit-content;
   margin: 30px auto;
 }
+
 #socialMedia {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -134,6 +144,7 @@ nav ul li a:hover {
   color: white;
   font-size: 1.3em;
 }
+
 .sm:hover {
   transition: 500ms linear;
 }
